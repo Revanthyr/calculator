@@ -1,0 +1,82 @@
+ .main{
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    width:950px;    
+    margin:auto;
+    margin-top:0;
+    margin-bottom:0;
+    height:500px;
+    gap:2px;
+    
+
+ /* rgb(100, 32, 170)
+rgb(255, 62, 165)
+rgb(255, 126, 212)
+rgb(255, 181, 218) */ 
+}
+#reset{
+    background-color:rgb(100, 32, 170);
+    
+}
+#reset:hover{
+    background-color: rgb(161, 3, 252)
+}
+.display{
+    font-size:60px;
+    margin-left:auto;
+    color:RGB(255, 182, 193);
+    font-weight: 600;
+    background-color: rgba(199, 21, 133,250);
+    padding-left:900px;
+    padding-top:2px;
+    padding-right:10px;    
+}
+button{
+    flex:1;
+    flex-grow:1;
+    font-size:30px;
+    color: rgb(255, 181, 218);
+    border:0;
+    background-color: rgb(255, 62, 165);
+
+} 
+button:hover{
+    background-color:rgb(255, 126, 212) ;
+}
+.row-1{
+    display:flex;
+    flex-grow:1;
+    gap:2px;
+}
+.row-2{
+    display:flex;
+    flex-grow:1;
+    gap:2px;
+}
+.row-3{
+    display:flex;
+    flex-grow:1;
+    gap:2px;
+}
+.row-4{
+    display:flex;
+    flex-grow:1;
+    gap:2px;
+}
+.row-5{
+    display:flex;
+    flex-grow:1;
+    gap:2px;
+}
+
+ body,html{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32,32,32);
+} 
+
+
