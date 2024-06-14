@@ -28,9 +28,11 @@ rgb(255, 181, 218) */
     color:RGB(255, 182, 193);
     font-weight: 600;
     background-color: rgba(199, 21, 133,250);
-    padding-left:900px;
+    width:950px;
     padding-top:2px;
-    padding-right:10px;    
+    padding-right:10px; 
+    text-align: right;   
+    flex-basis:70px
 }
 button{
     flex:1;
